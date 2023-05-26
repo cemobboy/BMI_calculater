@@ -43,7 +43,7 @@ def hesapla():
 
 
 Hesapla_button = Button(text="Hesapla", command=hesapla)
-Hesapla_button_button.grid(row=2, column=0, columnspan=2, padx=10, pady=10)
+Hesapla_button.grid(row=2, column=0, columnspan=2, padx=10, pady=10)
 
 # VKİ Sonucu Label
 vki_label = Label(text="", font=('Arial', 14, 'normal'))
